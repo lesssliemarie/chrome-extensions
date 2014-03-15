@@ -1,4 +1,4 @@
-window.onload = function() {
+getVideo = function() {
 	console.log('here');
 
 	var videos = [
@@ -9,7 +9,11 @@ window.onload = function() {
 	'https://www.youtube.com/embed/Ff6XeoMsvkk?autoplay=1',
 	'https://www.youtube.com/embed/_k3k58Vn2Fc?autoplay=1',
 	'https://www.youtube.com/embed/jVZA-22fp8I?autoplay=1',
-	'https://www.youtube.com/embed/geUJsk_pQvA?autoplay=1'
+	'https://www.youtube.com/embed/geUJsk_pQvA?autoplay=1',
+	'https://www.youtube.com/embed/FpQc7J7VxIM?autoplay=1',
+	'https://www.youtube.com/embed/jr0RxqP5BLs?autoplay=1',
+	'https://www.youtube.com/embed/YNz6EV0EFfY?autoplay=1',
+	'https://www.youtube.com/embed/EZYwjsDvSZE?autoplay=1'
 
 	];
 
@@ -22,3 +26,8 @@ window.onload = function() {
 
 
 }
+
+window.onload = getVideo;
+
+var getMore = document.getElementById('morepanda');
+getMore.onclick = getVideo;
