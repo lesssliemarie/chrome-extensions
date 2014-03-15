@@ -13,7 +13,12 @@ getVideo = function() {
 	'https://www.youtube.com/embed/FpQc7J7VxIM?autoplay=1',
 	'https://www.youtube.com/embed/jr0RxqP5BLs?autoplay=1',
 	'https://www.youtube.com/embed/YNz6EV0EFfY?autoplay=1',
-	'https://www.youtube.com/embed/EZYwjsDvSZE?autoplay=1'
+	'https://www.youtube.com/embed/EZYwjsDvSZE?autoplay=1',
+	'https://www.youtube.com/embed/fFTvqpxSaRw?autoplay=1',
+	'https://www.youtube.com/embed/Xam7hN4rinw?autoplay=1',
+	'https://www.youtube.com/embed/9y4dgIjsoZ4?autoplay=1',
+	'https://www.youtube.com/embed/ilQznV-vk_U?autoplay=1',
+	'https://www.youtube.com/embed/VrRdfXjAJHU?autoplay=1'
 
 	];
 
